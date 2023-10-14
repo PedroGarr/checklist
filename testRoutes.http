@@ -13,13 +13,13 @@ content-type: application/json
 
 POST http://127.0.0.1:8080/tasks/ 
 content-type: application/json
+Authorization: Basic pedrogarr 1234
 
 {
 	"description": "Yarr mate, we shall pluder the seas for riches",
 	"title": "Plunder the seas 2",
 	"priority": "HIGH",
 	"startAt": "2023-10-06T12:30:00",
-	"endAt": "2023-10-14T15:35:00",
-	"idUser": "42f1216e-d47f-4ac9-a0a1-64f34584bdff"
+	"endAt": "2023-10-14T15:35:00"
 	
 }
