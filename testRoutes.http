@@ -5,7 +5,7 @@ content-type: application/json
 
 {
 	"name": "teste",
-	"username": "usertest",
+	"username": "usertest2",
 	"password": "1234"
 }
 
@@ -30,13 +30,13 @@ content-type: application/json
 Authorization: Basic usertest 1234 
 ###
 
-PUT http://127.0.0.1:8080/tasks/bb4c809b-bc02-46dc-8a91-53ef735204af 
+PUT http://127.0.0.1:8080/tasks/b558986d-74a1-473d-9c97-bee2a7cd66a4 
 content-type: application/json
-Authorization: Basic usertest 1234
+Authorization: Basic usertest2 1234
 
 {
 	
-	"title": "and a bottle of rum"
+	"title": "and a bottle of s"
 
 }
 
