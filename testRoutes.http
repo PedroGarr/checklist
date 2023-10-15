@@ -27,6 +27,16 @@ Authorization: Basic usertest 1234
 
 GET  http://127.0.0.1:8080/tasks/ 
 content-type: application/json
-Authorization: Basic pedrogarr 1234
+Authorization: Basic usertest 1234 
+###
 
+PUT http://127.0.0.1:8080/tasks/bb4c809b-bc02-46dc-8a91-53ef735204af 
+content-type: application/json
+Authorization: Basic usertest 1234
+
+{
+	
+	"title": "and a bottle of rum"
+
+}
 
