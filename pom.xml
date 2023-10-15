@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>pedrogarr</groupId>
 	<artifactId>checklist</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>checklist</name>
 	<description>A task manager</description>
 	<properties>
