@@ -4,8 +4,8 @@ POST http://127.0.0.1:8080/users/
 content-type: application/json
 
 {
-	"name": "pedro",
-	"username": "pedrogarr",
+	"name": "teste",
+	"username": "usertest",
 	"password": "1234"
 }
 
@@ -13,13 +13,20 @@ content-type: application/json
 
 POST http://127.0.0.1:8080/tasks/ 
 content-type: application/json
-Authorization: Basic pedrogarr 1234
+Authorization: Basic usertest 1234
 
 {
 	"description": "Yarr mate, we shall pluder the seas for riches",
 	"title": "Plunder the seas 2",
 	"priority": "HIGH",
-	"startAt": "2023-10-18T12:30:00",
+	"startAt": "2023-10-16T12:30:00",
 	"endAt": "2023-10-17T15:35:00"
 	
 }
+###
+
+GET  http://127.0.0.1:8080/tasks/ 
+content-type: application/json
+Authorization: Basic pedrogarr 1234
+
+
