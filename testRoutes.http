@@ -5,7 +5,7 @@ content-type: application/json
 
 {
 	"name": "teste",
-	"username": "usertest2",
+	"username": "usertest",
 	"password": "1234"
 }
 
@@ -17,7 +17,7 @@ Authorization: Basic usertest 1234
 
 {
 	"description": "Yarr mate, we shall pluder the seas for riches",
-	"title": "Plunder the seas 2",
+	"title": "Plunder the seas ahoy Plunder the seas ahoy Plunder the seas ahoy Plunder the seas ahoy Plunder the seas ahoy Plunder the seas ahoy Plunder the seas ahoy",
 	"priority": "HIGH",
 	"startAt": "2023-10-16T12:30:00",
 	"endAt": "2023-10-17T15:35:00"
